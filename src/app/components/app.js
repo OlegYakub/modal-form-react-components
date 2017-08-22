@@ -13,10 +13,11 @@ import Close from 'material-ui-icons/Close';
 //my components
 import ListComponent from './ListComponent';
 
-
 injectTapEventPlugin();
+
 //init EventEmitter
 window.ee = new EventEmitter();
+
 //style
 var styles = {
   cancel: {
@@ -33,6 +34,7 @@ var styles = {
     fill: "#222"
   }
 }
+
 //data
 var initialState = [
   {

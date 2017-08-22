@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import FlatButton from 'material-ui/FlatButton';
 //my components
 import ListItemComponent from './ListItemComponent';
+
 //styles
 const style = {
   marginTop: 12,
